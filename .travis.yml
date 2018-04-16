@@ -6,6 +6,7 @@ before_script:
   - sudo apt-get clean
   - composer self-update
   - composer install --dev --prefer-source
+  - sudo add-apt-repository ppa:ondrej/php
   - sudo apt-get install php-imagick
   #- wget https://pecl.php.net/get/imagick-3.4.3.tgz
   #- tar -xzf imagick-3.4.3.tgz
