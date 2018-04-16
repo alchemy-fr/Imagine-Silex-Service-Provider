@@ -5,8 +5,9 @@ namespace Neutron\Tests\Silex\Provider;
 use Neutron\Silex\Provider\ImagineServiceProvider;
 use Silex\Application;
 use Symfony\Component\HttpKernel\Client;
+use \PHPUnit\Framework\TestCase;
 
-class BadFaithServiceProviderTest extends \PHPUnit_Framework_TestCase
+class BadFaithServiceProviderTest extends TestCase
 {
     public function testRegister()
     {
