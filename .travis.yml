@@ -2,7 +2,7 @@ language: php
 
 before_script:
   - sudo apt-get update
-  - sudo apt-get install -y -qq graphicsmagick libgraphicsmagick1-dev
+  - sudo apt-get install -y -qq graphicsmagick libgraphicsmagick1-dev pkg-config libmagickwand-dev
   - sudo apt-get clean
   - composer self-update
   - composer install --dev --prefer-source
